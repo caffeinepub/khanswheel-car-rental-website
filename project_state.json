@@ -1,0 +1,332 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Building a comprehensive, production-ready car rental website for 'Khanswheel' — a premium Indian car rental business. Single-file (index.html) with embedded CSS and JS. Deep Navy Blue/Gold color scheme, mobile-first responsive design, targeting the Indian market with INR pricing, UPI payments, WhatsApp integration, and Indian city coverage.",
+  "architectural_notes": [
+    "Single index.html file — all CSS in <style> tag, all JS in <script> tag at bottom",
+    "Pure HTML5/CSS3/Vanilla JS — no frameworks; only Google Fonts and Font Awesome via CDN",
+    "Color scheme: Deep Navy Blue (#0A1628) primary, Gold/Amber (#F5A623) accent, White (#FFFFFF) bg, Charcoal (#2D2D2D) text",
+    "Mobile-first responsive design with glassmorphism card effects and scroll animations",
+    "Indian market: INR pricing, UPI payments, WhatsApp primary comms, major Indian cities, Hindi tagline"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-in-the-herosection-booking-form-replace-the-pickup-location-and-drop-location-city-dropdowns-with-google-maps-places-autocomplete-text-inputs-users-should-be-able-to-type-any-place-address-or-landmark-and-receive-live-location-suggestions-powered-by-the-google-maps-places-api-the-selected-location-should-populate-the-input-field-with-the-full-place-name-address",
+      "title": "In the HeroSection booking form, replace the Pickup Location and Drop Location city dropdowns with Google Maps Places Autocomplete text inputs. Users should be able to type any place, address, or landmark and receive live location suggestions powered by the Google Maps Places API. The selected location should populate the input field with the full place name/address.",
+      "reqIds": [
+        "REQ-22"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-bookingmodal-step-1-trip-details-replace-the-pickup-location-and-drop-location-city-dropdowns-with-google-maps-places-autocomplete-text-inputs-matching-the-same-behavior-introduced-in-the-herosection-booking-form",
+      "title": "In the BookingModal (Step 1 — Trip Details), replace the Pickup Location and Drop Location city dropdowns with Google Maps Places Autocomplete text inputs, matching the same behavior introduced in the HeroSection booking form.",
+      "reqIds": [
+        "REQ-23"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Sticky header with logo, nav links, Book Now CTA, phone/WhatsApp icon, and mobile hamburger menu",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Full-screen hero section with animated booking form overlay (locations, dates, trip type toggle)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Animated stats banner: 500+ Cars, 50+ Cities, 10,000+ Customers, 5★ Rating",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Why Choose Us section with 6 USP feature cards and hover animations",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Fleet section with filter tabs and 8 vehicle cards (price, specs, Book Now)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Vehicle comparison tool (up to 3 vehicles side-by-side)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Special offers & packages with countdown timer and horizontal scrollable cards",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "How It Works 4-step visual process with animated dotted line",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "CSS/SVG India coverage map with clickable city pins",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Customer reviews carousel with 6+ reviews, overall 4.8/5 rating summary",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Blog section with 3 post cards",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Multi-step booking modal (5 steps: trip details, car select, add-ons, personal info, payment summary)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "Payment gateway UI with UPI logos, card, net banking, EMI options and trust badges",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-14",
+      "summary": "Trust signals section: partner logos, certifications (ISO, RTO, GST)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-15",
+      "summary": "About Us section with company story, team members, mission & vision",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-16",
+      "summary": "Contact section with form, details, WhatsApp button, maps placeholder, business hours",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-17",
+      "summary": "Footer with quick links, social icons, newsletter, legal links, GST/registration info",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-18",
+      "summary": "Floating elements: WhatsApp button, Back to Top, cookie consent banner, live chat button",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-19",
+      "summary": "Full JS functionality: booking validation, vehicle filter, compare tool, counters, carousel, mobile menu, sticky header, smooth scroll, date picker, countdown timer, modal, form success message, scroll animations",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-20",
+      "summary": "SEO: meta tags, JSON-LD structured data, semantic HTML, OG tags, schema markup for reviews",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-21",
+      "summary": "Create a single self-contained index.html file (with all CSS in a <style> tag and all JS in a <script> tag) that serves as the complete Khanswheel car rental website. The file must be production-ready with no placeholder content, no external dependencies except Google Fonts (Poppins + Inter) and Font Awesome via CDN.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-22",
+      "summary": "Apply a consistent design system throughout: Deep Navy Blue (#0A1628) as primary background, Gold/Amber (#F5A623) as accent, White (#FFFFFF) as background, Charcoal (#2D2D2D) for body text. Use Poppins for headings and Inter for body. Apply glassmorphism effects on cards, gradient CTAs, and subtle Indian cultural aesthetic motifs (warm gold accents, professional festive feel). Smooth scroll animations using Intersection Observer (fade-in/slide-in).",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-23",
+      "summary": "Build a sticky header with the 'Khanswheel' logo (stylized with a wheel icon using Font Awesome), navigation links (Home, Fleet, Booking, Offers, Blog, About, Contact), a gold 'Book Now' CTA button, phone number (+91 format), and a WhatsApp icon link. Include a mobile hamburger menu that opens a smooth slide-in drawer with overlay. Header background changes on scroll (transparent → solid navy).",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-24",
+      "summary": "Build a full-screen hero section with a dark gradient overlay simulating a luxury car scene. Display headline 'Drive Your Journey, Your Way' with subtext about premium car rentals across India, and the Hindi tagline 'आपकी यात्रा, हमारी जिम्मेदारी'. Overlay an animated booking form with: Pickup Location dropdown (Mumbai, Delhi, Bangalore, Chennai, Hyderabad, Pune, Kolkata, Jaipur, Ahmedabad, Surat), Drop Location dropdown, Pickup Date & Time, Return Date & Time, Trip Type toggle (One Way / Round Trip / Hourly), and a 'Search Cars' button that triggers the booking modal.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-25",
+      "summary": "Add an animated stats banner section with dark navy background and gold accents showing four counters that animate (count up) when scrolled into view: 500+ Cars, 50+ Cities, 10,000+ Happy Customers, 5★ Average Rating.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-26",
+      "summary": "Build a 'Why Choose Us' section with 6 feature cards, each with a Font Awesome icon, title, and description: (1) 24/7 Roadside Assistance, (2) GPS-Enabled Vehicles, (3) No Hidden Charges, (4) Sanitized & Verified Cars, (5) Experienced Drivers, (6) Flexible Cancellation. Cards must have glassmorphism styling and CSS hover animations (lift + glow effect).",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-27",
+      "summary": "Build a Fleet section with category filter tabs (All, Hatchback, Sedan, SUV, Luxury, Tempo Traveller). Display 8 vehicle cards with CSS gradient placeholders and car silhouette icons. Each card shows: car name & model, key specs (AC, Seats, Fuel Type, Luggage), price per day in INR, 'View Details' button, and 'Book Now' button. Vehicles: (1) Maruti Swift Hatchback ₹1,499/day, (2) Honda City Sedan ₹2,299/day, (3) Toyota Innova Crysta SUV ₹3,499/day, (4) Fortuner SUV ₹4,999/day, (5) Mercedes C-Class Luxury ₹8,999/day, (6) BMW 5 Series Luxury ₹10,999/day, (7) Tempo Traveller 12-Seater ₹5,499/day, (8) Maruti Ertiga SUV ₹2,799/day. Filter tabs animate card visibility smoothly. Each card also has an 'Add to Compare' button.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-28",
+      "summary": "Build a Vehicle Comparison Tool. Each vehicle card's 'Add to Compare' button adds the vehicle to a comparison tray (max 3 vehicles). A sticky comparison bar appears at the bottom of the page showing selected vehicles. When 2–3 vehicles are selected, a 'Compare Now' button reveals a full comparison table showing: Price/day, Seats, Fuel Type, AC, Boot Space, Driver Availability. Users can remove vehicles from comparison. The comparison table should be clearly visible and well-formatted.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-29",
+      "summary": "Build a Special Offers & Packages section with horizontally scrollable promotional cards: (1) Weekend Getaway — 15% off on weekend bookings, (2) Corporate Package — Monthly rentals for businesses, (3) Honeymoon Special — Decorated car + driver, (4) Airport Transfer — Fixed price transfers, (5) Outstation Trip — Best rates for long trips. At least 2 of the offer cards must show a live countdown timer for limited-time offers. Cards should have gradient backgrounds with gold accents.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-30",
+      "summary": "Build a 'How It Works' section showing a 4-step visual process: (1) Choose Your Car, (2) Pick Location & Date, (3) Confirm & Pay, (4) Enjoy Your Ride. Steps are connected by an animated dotted line (CSS animation). Each step has a numbered circle, Font Awesome icon, title, and brief description. Layout is horizontal on desktop, vertical on mobile.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-31",
+      "summary": "Build a Coverage Map section using CSS/SVG representing India. Place clickable city pins for Mumbai, Delhi, Bangalore, Chennai, Hyderabad, Pune, and Kolkata at approximate geographic positions. On hover, each pin shows a tooltip with the city name and available cars count. Style pins in gold with navy labels.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-32",
+      "summary": "Build a Customer Reviews section with an auto-playing carousel (manual prev/next controls also present). Display at least 6 review cards with Indian customer names, avatar initials placeholders, city, star rating (1–5), review text, and date. Show an overall rating summary: 4.8/5 based on 2,847 reviews with a visual star breakdown bar. Include schema markup for reviews (JSON-LD).",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-33",
+      "summary": "Build a Blog section with 3 post cards. Each card has a CSS gradient thumbnail, a category tag, title, excerpt, date, and 'Read More' button. Posts: (1) 'Top 10 Road Trip Destinations in India 2024', (2) 'Self-Drive vs. Chauffeur: Which is Right for You?', (3) 'Tips for Renting a Car in India for the First Time'.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-34",
+      "summary": "Build a multi-step booking modal (full-screen overlay) triggered by all 'Book Now' buttons. Include a progress indicator at the top. Steps: (1) Trip Details — pickup/drop locations, pickup & return dates/times, trip type; (2) Select Car — filtered vehicle list; (3) Add-ons — GPS (₹199/day), Child Seat (₹149/day), Extra Driver (₹299/day), Travel Insurance (₹399/trip); (4) Personal Details — Name, Phone (+91), Email, ID Type dropdown, ID Number; (5) Payment Summary — booking summary with total, payment method selection (UPI: Google Pay/PhonePe/Paytm, Debit/Credit Card, Net Banking, EMI). Each step has Next/Back navigation. Final submission shows a success message with a random booking reference number. All fields validated with inline error messages.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-35",
+      "summary": "Build a Trust Signals section showing: partner brand names (Maruti, Toyota, Honda, Mercedes, BMW) as styled text-based logo badges, certification badges (ISO Certified, RTO Compliant, GST Registered), and a '100% Secure Payment' badge with SSL indicator. This section should also appear within the booking modal payment step.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-36",
+      "summary": "Build an About Us section with: a company story paragraph about Khanswheel's founding and mission, a Mission & Vision block, and a 3-person team section with avatar initials, name, title, and brief bio for key team members.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-37",
+      "summary": "Build a Contact section with: a contact form (Name, Phone, Email, Message, Submit button) that shows a success message on submission; contact details (phone +91, email, Mumbai HQ address); business hours table; a styled div as Google Maps embed placeholder; and a floating WhatsApp chat button (bottom-right, green) linking to a WhatsApp number.",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-38",
+      "summary": "Build a comprehensive footer with: Khanswheel logo and tagline (including Hindi tagline), 3-column quick links, social media icons (Instagram, Facebook, Twitter, YouTube) via Font Awesome, a newsletter email signup form, legal links (Privacy Policy, Terms & Conditions, Refund Policy), GST number, company registration number, and copyright notice.",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-39",
+      "summary": "Add all floating UI elements: (1) Green WhatsApp floating button (bottom-right) with bounce animation, (2) 'Back to Top' button that appears after scrolling 300px, (3) Cookie consent banner at bottom with Accept/Decline buttons that dismisses on action (localStorage), (4) Live chat button (bottom-left) styled in navy/gold.",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-40",
+      "summary": "Add complete SEO markup to the index.html: title tag ('Khanswheel — Premium Car Rental in India'), meta description and keywords, Open Graph tags (title, description, type, image), canonical URL tag, JSON-LD structured data for LocalBusiness (name, address, phone, url, priceRange), and JSON-LD Review/AggregateRating schema. Use semantic HTML elements (header, nav, main, section, article, footer) throughout. All icons/images must have descriptive alt text.",
+      "reqIds": [
+        "REQ-20"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-41",
+      "summary": "Apply a visually stunning, premium design theme that combines modern luxury aesthetics with subtle Indian cultural warmth. Use deep navy (#0A1628) for section backgrounds, gold (#F5A623) for accents, headings, and CTAs, and white/light grey for alternating section backgrounds. Incorporate subtle geometric or mandala-inspired CSS background patterns on select sections. Ensure consistent spacing, generous padding, and high-quality typography hierarchy throughout the entire page.",
+      "reqIds": [
+        "REQ-21"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-42",
+      "summary": "Replace pickup and drop location dropdowns with Google Maps Places Autocomplete text inputs, allowing users to type any location/address and get suggestions from Google Maps",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Khanswheel",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

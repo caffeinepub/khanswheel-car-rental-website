@@ -1,0 +1,54 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-28T10:51:13.035Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 2,
+    "implemented": 2,
+    "items": [
+      {
+        "id": "REQ-22",
+        "summary": "In the HeroSection booking form, replace the Pickup Location and Drop Location city dropdowns with Google Maps Places Autocomplete text inputs. Users should be able to type any place, address, or landmark and receive live location suggestions powered by the Google Maps Places API. The selected location should populate the input field with the full place name/address.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/index.html",
+          "frontend/src/components/khanswheel/HeroSection.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/index.html",
+          "frontend/src/components/khanswheel/HeroSection.tsx"
+        ]
+      },
+      {
+        "id": "REQ-23",
+        "summary": "In the BookingModal (Step 1 — Trip Details), replace the Pickup Location and Drop Location city dropdowns with Google Maps Places Autocomplete text inputs, matching the same behavior introduced in the HeroSection booking form.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/khanswheel/BookingModal.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/khanswheel/BookingModal.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/index.html",
+    "frontend/src/components/khanswheel/BookingModal.tsx",
+    "frontend/src/components/khanswheel/HeroSection.tsx",
+    "frontend/src/components/khanswheel/PlacesAutocomplete.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

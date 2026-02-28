@@ -1,0 +1,42 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-in-the-herosection-booking-form-replace-the-pickup-location-and-drop-location-city-dropdowns-with-google-maps-places-autocomplete-text-inputs-users-should-be-able-to-type-any-place-address-or-landmark-and-receive-live-location-suggestions-powered-by-the-google-maps-places-api-the-selected-location-should-populate-the-input-field-with-the-full-place-name-address",
+      "featureTitle": "In the HeroSection booking form, replace the Pickup Location and Drop Location city dropdowns with Google Maps Places Autocomplete text inputs. Users should be able to type any place, address, or landmark and receive live location suggestions powered by the Google Maps Places API. The selected location should populate the input field with the full place name/address.",
+      "files": [
+        "frontend/index.html",
+        "frontend/src/components/khanswheel/HeroSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-22"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-in-the-bookingmodal-step-1-trip-details-replace-the-pickup-location-and-drop-location-city-dropdowns-with-google-maps-places-autocomplete-text-inputs-matching-the-same-behavior-introduced-in-the-herosection-booking-form",
+      "featureTitle": "In the BookingModal (Step 1 — Trip Details), replace the Pickup Location and Drop Location city dropdowns with Google Maps Places Autocomplete text inputs, matching the same behavior introduced in the HeroSection booking form.",
+      "files": [
+        "frontend/src/components/khanswheel/BookingModal.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-23"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

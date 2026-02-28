@@ -1,0 +1,17 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-28T10:51:13.031Z",
+  "summary": "The diff implements both REQ-22 and REQ-23 comprehensively. A reusable PlacesAutocomplete component was added, HeroSection and BookingModal were updated to use it, the Google Maps API script was added to index.html with a clearly labeled placeholder, and validation logic in BookingModal was retained. All major acceptance criteria appear to be satisfied.",
+  "missing_requirements": [],
+  "hallucinated_features": [],
+  "confidence": 0.93,
+  "changed_files": [
+    "frontend-file-summaries.txt",
+    "frontend/index.html",
+    "frontend/src/components/khanswheel/BookingModal.tsx",
+    "frontend/src/components/khanswheel/HeroSection.tsx",
+    "frontend/src/components/khanswheel/PlacesAutocomplete.tsx",
+    "project_state.json"
+  ]
+}

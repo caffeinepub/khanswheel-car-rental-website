@@ -1,0 +1,49 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Replace city dropdowns with Google Maps Places Autocomplete in booking form",
+  "requirements": [
+    {
+      "id": "REQ-22",
+      "summary": "Replace Pickup Location and Drop Location city dropdowns in HeroSection booking form with Google Maps Places Autocomplete text inputs that provide live location suggestions as users type",
+      "acceptanceCriteria": [
+        "The Pickup Location city dropdown in the HeroSection booking form is replaced with a text input that triggers Google Maps Places Autocomplete suggestions as the user types.",
+        "The Drop Location city dropdown in the HeroSection booking form is replaced with a text input that triggers Google Maps Places Autocomplete suggestions as the user types.",
+        "Autocomplete suggestions appear in a styled dropdown list below each input as the user types.",
+        "Selecting a suggestion from the dropdown populates the input with the full place name/address.",
+        "The Google Maps Places API script is loaded in the HTML with an appropriate API key placeholder.",
+        "Both inputs are visually consistent with the existing booking form style (navy/gold theme).",
+        "The inputs work on both desktop and mobile layouts."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Add Google Maps Places API script tag in the <head> section with a clearly labeled placeholder API key (YOUR_GOOGLE_MAPS_API_KEY). Include the places library in the script URL."
+        },
+        {
+          "path": "frontend/src/components/khanswheel/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Replace the Pickup Location and Drop Location city dropdown (<select>) elements with text input fields. Integrate Google Maps Places Autocomplete on both inputs using the google.maps.places.Autocomplete API. Ensure autocomplete suggestions appear in a styled dropdown, handle place selection to populate the input with the full place name/address, and maintain the existing navy/gold theme styling. Preserve all other form fields (dates, times, trip type toggle) and form submission logic."
+        }
+      ]
+    },
+    {
+      "id": "REQ-23",
+      "summary": "Replace Pickup Location and Drop Location city dropdowns in BookingModal Step 1 with Google Maps Places Autocomplete text inputs matching HeroSection behavior",
+      "acceptanceCriteria": [
+        "The Pickup Location and Drop Location fields in Step 1 of the BookingModal are text inputs with Google Maps Places Autocomplete, not city dropdowns.",
+        "Autocomplete suggestions appear and are selectable in the modal context without layout overflow issues.",
+        "Selected place name/address is retained and displayed in the booking summary step.",
+        "Validation still requires a non-empty pickup and drop location before proceeding to Step 2."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/khanswheel/BookingModal.tsx",
+          "operation": "modify",
+          "description": "In Step 1 (Trip Details), replace the Pickup Location and Drop Location city dropdown elements with text input fields. Integrate Google Maps Places Autocomplete on both inputs using the same approach as HeroSection. Ensure autocomplete dropdowns render correctly within the modal without overflow issues (use appropriate z-index and container positioning). Update form state to store the selected place name/address strings. Ensure the selected locations are retained and displayed in the booking summary step. Maintain existing validation requiring non-empty pickup and drop locations before allowing progression to Step 2."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+export interface Vehicle {
+  id: string;
+  name: string;
+  model: string;
+  category: 'hatchback' | 'sedan' | 'suv' | 'luxury' | 'tempo';
+  pricePerDay: number;
+  seats: number;
+  fuel: string;
+  ac: boolean;
+  luggage: string;
+  bootSpace: string;
+  driverAvailable: boolean;
+  gradient: string;
+  icon: string;
+}
+
+export const vehicles: Vehicle[] = [
+  {
+    id: 'swift',
+    name: 'Maruti Swift',
+    model: 'Swift VXi 2023',
+    category: 'hatchback',
+    pricePerDay: 1499,
+    seats: 5,
+    fuel: 'Petrol',
+    ac: true,
+    luggage: '2 Bags',
+    bootSpace: '268L',
+    driverAvailable: true,
+    gradient: 'linear-gradient(135deg, #1a3a5c 0%, #2d6a9f 100%)',
+    icon: 'fa-car',
+  },
+  {
+    id: 'honda-city',
+    name: 'Honda City',
+    model: 'City ZX 2023',
+    category: 'sedan',
+    pricePerDay: 2299,
+    seats: 5,
+    fuel: 'Petrol',
+    ac: true,
+    luggage: '3 Bags',
+    bootSpace: '506L',
+    driverAvailable: true,
+    gradient: 'linear-gradient(135deg, #1a2a4a 0%, #3a5a8a 100%)',
+    icon: 'fa-car-side',
+  },
+  {
+    id: 'innova',
+    name: 'Toyota Innova Crysta',
+    model: 'Crysta GX 2023',
+    category: 'suv',
+    pricePerDay: 3499,
+    seats: 7,
+    fuel: 'Diesel',
+    ac: true,
+    luggage: '4 Bags',
+    bootSpace: '300L',
+    driverAvailable: true,
+    gradient: 'linear-gradient(135deg, #1a3a2a 0%, #2d6a4a 100%)',
+    icon: 'fa-truck-pickup',
+  },
+  {
+    id: 'fortuner',
+    name: 'Toyota Fortuner',
+    model: 'Fortuner 4x4 2023',
+    category: 'suv',
+    pricePerDay: 4999,
+    seats: 7,
+    fuel: 'Diesel',
+    ac: true,
+    luggage: '4 Bags',
+    bootSpace: '403L',
+    driverAvailable: true,
+    gradient: 'linear-gradient(135deg, #2a1a0a 0%, #6a4a1a 100%)',
+    icon: 'fa-truck-pickup',
+  },
+  {
+    id: 'mercedes',
+    name: 'Mercedes C-Class',
+    model: 'C 220d AMG Line',
+    category: 'luxury',
+    pricePerDay: 8999,
+    seats: 5,
+    fuel: 'Diesel',
+    ac: true,
+    luggage: '3 Bags',
+    bootSpace: '455L',
+    driverAvailable: true,
+    gradient: 'linear-gradient(135deg, #1a1a2a 0%, #4a4a6a 100%)',
+    icon: 'fa-car',
+  },
+  {
+    id: 'bmw',
+    name: 'BMW 5 Series',
+    model: '530d M Sport 2023',
+    category: 'luxury',
+    pricePerDay: 10999,
+    seats: 5,
+    fuel: 'Diesel',
+    ac: true,
+    luggage: '3 Bags',
+    bootSpace: '530L',
+    driverAvailable: true,
+    gradient: 'linear-gradient(135deg, #0a1a2a 0%, #1a3a5a 100%)',
+    icon: 'fa-car',
+  },
+  {
+    id: 'tempo',
+    name: 'Tempo Traveller',
+    model: '12-Seater Deluxe',
+    category: 'tempo',
+    pricePerDay: 5499,
+    seats: 12,
+    fuel: 'Diesel',
+    ac: true,
+    luggage: '8 Bags',
+    bootSpace: 'Large',
+    driverAvailable: true,
+    gradient: 'linear-gradient(135deg, #1a2a1a 0%, #3a5a3a 100%)',
+    icon: 'fa-bus',
+  },
+  {
+    id: 'ertiga',
+    name: 'Maruti Ertiga',
+    model: 'Ertiga ZXi+ 2023',
+    category: 'suv',
+    pricePerDay: 2799,
+    seats: 7,
+    fuel: 'Petrol/CNG',
+    ac: true,
+    luggage: '3 Bags',
+    bootSpace: '209L',
+    driverAvailable: true,
+    gradient: 'linear-gradient(135deg, #2a1a3a 0%, #5a3a7a 100%)',
+    icon: 'fa-car-side',
+  },
+];
